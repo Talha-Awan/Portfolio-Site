@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+@keyframes testhead {
+	from {
+		top: 0px;
+	}
+	to {
+		top: 80px;
+	}
+}
+
+@keyframes testimg {
+	from {
+		right: 0px;
+	}
+	to {
+		right: 80px;
+	}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background-color: lightblue !important;
+}
+
+.navigation-link {
+	border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+	text-decoration: none;
+	border-bottom: 2px solid goldenrod;
+	transition: 0.5s ease;
+}
+
+.main-container {
+	min-height: 100vh;
+	padding-top: 2rem;
+}
+
+.main_row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main_row h2 {
+	font-size: 3rem;
+}
+
+.main_row img {
+	width: 50%;
+	height: 30%;
+}
+
+#about {
+	background: cornflowerblue;
+}
+
+#skills {
+	background: cornflowerblue;
+}
+
+#socialmedia {
+	background: black;
+}
+
+.card {
+	border-bottom: 8px solid #f5ba09 !important;
+}
+
+.imginfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation-name: testimg;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+.m_link {
+	padding: 1rem;
+	max-width: 15rem;
+	margin-left: 1rem;
+	border: 2px solid #f5ba09 !important;
+}
+
+#headerinfo {
+	animation-name: testhead;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+#headerinfo h2,
+#headerinfo h3 {
+	font-size: 60px;
+}
+
+#skillsrev {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: cornflowerblue;
+	padding: 20px;
+}
+
+#cv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: cornflowerblue;
+	padding: 20px;
+}
+
+#skillsrev #images {
+	display: flex;
+	justify-content: center;
+}
+
+#htmlcssjs {
+	width: 30%;
+	height: auto;
+}
+
+#python {
+	width: 15%;
+	height: auto;
+}
+
+#php {
+	width: 25%;
+	height: auto;
+}
+
+td {
+	color: black;
+}
+
+#projects {
+	text-align: center;
+}
+
+#education {
+	text-align: center;
+}
